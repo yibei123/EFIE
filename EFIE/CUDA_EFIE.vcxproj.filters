@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{c83d9d3a-920d-4d40-8dcb-c6e37ab4314c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="inc">
+      <UniqueIdentifier>{6a138267-6853-42b6-89c2-642465867531}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="header\datatype.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="header\parameter.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="header\DataClean.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="header\tinyfunc.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="header\CalcIntegral.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="header\ImpedanceMatrix_Cal.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="header\LinearEquation.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="source\DataClean.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\ImpenanceMatrix.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\L_L_mn.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\tinyfunc.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\datatype.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\SingularIntegral.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GetExcitation.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GetResult.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\LinearEquationSolve.c">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
