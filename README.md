@@ -1,5 +1,5 @@
 # EFIE
-A simple code for electric filed integral equation (EFIE) with RWG basis functions.
+A simple code for electric field integral equation (EFIE) with RWG basis functions.
 Input file contains the mesh grid. 
 Ouput file contains the RCS datas.
 
